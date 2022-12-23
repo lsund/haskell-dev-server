@@ -10,3 +10,4 @@ three scripts in seperate terminal windows
 - A file watcher recompiling and terminating old programs
 - A ghcid window
 
+<img width="1231" alt="image" src="https://user-images.githubusercontent.com/5222589/209290519-f4b9c612-9db0-48ea-b4e8-3513f9164826.png">
