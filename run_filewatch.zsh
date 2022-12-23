@@ -2,6 +2,7 @@
 
 if [ "$#" -ne 1 ]; then
     echo "Missing argument: executable name"
+    exit 1
 fi
 
 prog=$1

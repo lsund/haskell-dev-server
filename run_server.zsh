@@ -2,6 +2,7 @@
 
 if [ "$#" -ne 1 ]; then
     echo "Missing argument: executable path"
+    exit 1
 fi
 
 stack_executable=$1
