@@ -1,4 +1,6 @@
 #!/bin/zsh
 
-stack install --file-watch --exec "killall pfin-exe"
+prog=$1
+
+stack install --file-watch --exec "killall $1"
 

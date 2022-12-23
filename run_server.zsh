@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+stack_executable=$1
+
 while true; do;
-  /Users/lsund/.local/bin/pfin-exe --start-webserver
+  $1 --start-webserver
 done
