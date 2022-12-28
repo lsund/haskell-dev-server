@@ -1,12 +1,13 @@
 #!/bin/zsh
 
-if [ "$#" -ne 1 ]; then
+if [ "$#" -lt 1 ]; then
     echo "Missing argument: executable path"
     exit 1
 fi
 
-stack_executable=$1
+stack_executable_path=$1
 
 while true; do;
-  $1 --start-webserver
+  $stack_executable_path --start-webserver "${@:2}"
 done
+
